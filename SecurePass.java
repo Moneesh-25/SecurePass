@@ -63,7 +63,7 @@ public class SecurePass {
     }
 
     static void deleteAll() throws IOException {
-        new FileWriter(FILE_NAME, false).close(); // overwrite with empty file
+        new FileWriter(FILE_NAME, false).close(); 
         System.out.println("🗑️ All credentials deleted.");
     }
 }
